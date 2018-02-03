@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Inconsolata|Macondo|Roboto+Mono|Open+Sans+Condensed:300|Saira+Condensed|Gruppo');
+
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	overflow-y:hidden;
+	background-image: url('imagenes/background_rinconada.jpg');
+/*    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;*/
+    background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+/*	width: 100%;
+	transition: all 0.3s linear;*/
+}
+
+body.class1 {
+     background-image:url('imagenes/background_rinconada.jpg');
+}
+
+body.class2 {
+    background-image:url('imagenes/background_quime.jpg');
+}
+
+body.class3 {
+    background-image:url('imagenes/background_cuba.jpg');
+}
+
+body.class4 {
+    background-image:url('imagenes/background_masma.jpg');
+}
+
+body.class5 {
+    background-image:url('imagenes/background_marchas.jpg');
+}
+
+body.class6 {
+    background-image:url('imagenes/background_ocutuan.jpg');
+}
+
+header {
+	height: 60px;
+	background:rgba(0,0,0,0.9);
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo a {
+	display: flex;
+	justify-content: flex-end;
+	color: white;
+	text-decoration: none;
+	font-family: Gruppo;
+/*	font-family: AbrilFatface;*/
+}
+
+.logo {
+	margin-top: 12px;
+	margin-left: 45px;
+
+}
+
+nav {
+	margin-right: 150px;
+
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+nav li {
+/*	display: inline-block;*/
+	margin-left: 35px;
+	margin-top: 20px;
+
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+	font-family: Arvo;
+
+}
+
+nav a:hover {
+	color: white;
+}
+
+.menu_lateral {
+	text-decoration: none;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 200px;
+}
+
+.menu_lateral li{
+	width: auto;
+	list-style: none;	
+	text-decoration: none;
+	margin: 10px;
+	border-radius: 3px;
+	background:rgba(0,0,0,0.6);
+	padding: 11px 50px 11px 50px;
+
+
+}
+
+.menu_lateral a {
+	color: white;
+	margin-right: 4px;
+	margin-left: 4px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Open Sans Condensed;
+
+}
+
+.menu_lateral ul li{
+	border: 0;
+/*	border: solid red;*/
+	margin-right: 20px;
+	text-align: center;
+	margin-top: 5px;
+
+}
+
+/*#f1 {
+	color: grey;
+}*/
+
+.menu_lateral a:hover {
+	color: grey;
+	
+}
+
+footer {
+	font-size: 30px;
+	right: 1em;
+	position: absolute; bottom: 0;
+
+}
+
+footer li {
+	list-style: none;
+	text-align: left;
+	float: left;
+  	margin-right: 15px;
+  	margin-bottom: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	}
+
+#instagram_icon:hover {
+	color: #b0005e;
+}
+
+#facebook_icon:hover {
+	color: #3b5998;
+}
+
+
+
+
+
+
+
+
+
+

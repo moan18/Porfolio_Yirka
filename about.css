@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Inconsolata|Macondo|Roboto+Mono|Open+Sans+Condensed:300|Special+Elite|Saira+Condensed|Gruppo|Love+Ya+Like+A+Sister');
+@font-face {
+font-family: 'American Typewriter Light';
+font-style: normal;
+font-weight: normal;
+src: local('American Typewriter Light'), url('ufonts.com_american-typewriter-light.woff') format('woff');
+}
+
+@font-face {
+font-family: 'American Typewriter';
+font-style: normal;
+font-weight: normal;
+src: local('American Typewriter'), url('ufonts.com_american-typewriter.woff') format('woff');
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	background: white;
+}
+
+header {
+	height: 60px;
+	background:rgba(0,0,0,0.9);
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo a {
+	color: white;
+	text-decoration: none;
+	font-family: Gruppo;
+/*	font-family: AbrilFatface;*/
+}
+
+.logo {
+	display: flex;
+	margin-top: 12px;
+	margin-left: 45px;
+
+}
+
+.logo p {
+	float: right;
+	padding-bottom: 15px;
+}
+
+nav {
+	margin-right: 150px;
+
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 35px;
+	margin-top: 20px;
+
+}
+
+nav a {
+	color: grey;
+	text-decoration: none;
+	font-family: Arvo;
+
+}
+
+nav a:hover {
+	color: white;
+}
+
+.uno {
+	text-align: center;
+
+}
+
+.uno img {
+	border: 2px solid black;
+	margin: 0;
+	padding: 0;
+	border-radius: 800px;
+	overflow: hidden;
+	margin-top: 60px;
+}
+
+.titulos {
+	font-size: 25px;
+	margin-top: 20px;
+	color: black;
+	text-align: center;
+	font-family: Gruppo;
+	margin-bottom: 30px;
+}
+
+h3 {
+	color: grey;
+	font-size: 20px;
+}
+
+.texto {
+	text-align: justify;
+	margin: auto;
+	font-size: 21px;
+	width: 60%;
+	color: black;
+	font-family: American Typewriter Light;
+/*	font-family: American Typewriter;*/
+}
+
+footer {
+	font-size: 30px;
+	right: 1em;
+	position: absolute; bottom: 0;
+
+}
+
+footer li {
+	list-style: none;
+	text-align: left;
+	float: left;
+  	margin-right: 20px;
+  	margin-bottom: 10px;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	}
+
+#instagram_icon:hover {
+	color: #b0005e;
+}
+
+#facebook_icon:hover {
+	color: #3b5998;
+}
