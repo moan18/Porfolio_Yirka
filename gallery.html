@@ -8,7 +8,9 @@
         <meta name="description" content="Gamma Gallery - A Responsive Image Gallery Experiment"/>
         <meta name="keywords" content="html5, responsive, image gallery, masonry, picture, images, sizes, fluid, history api, visibility api"/>
         <meta name="author" content="Codrops"/>
-        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="imagenes/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="imagenes/favicon-16x16.png">
         <link rel="stylesheet" type="text/css" href="css/galery_1.css"/>
 		<script src="js/modernizr.custom.70736.js"></script>
 		<noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
@@ -26,9 +28,8 @@
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About</a></li>
-						<li><a href="#">CV</a></li>
-						<li><a href="#">Stories</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="/blog/">Stories</a></li>
+						<li><a href="/blog/?page_id=7">Contact</a></li>
 					</ul>
 				</nav>
 				
@@ -432,7 +433,7 @@
 				var GammaSettings = {
 						// order is important!
 						viewport : [ {
-							width : 1200,
+							width : 1200, 
 							columns : 5
 						}, {
 							width : 900,

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Inconsolata|Macondo|Roboto+Mono|Open+Sans+Condensed:300|Special+Elite|Saira+Condensed|Gruppo|Love+Ya+Like+A+Sister');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Arvo|Inconsolata|Macondo|Roboto+Mono|Open+Sans+Condensed:300|Special+Elite|Saira+Condensed|Gruppo|Abel|Encode+Sans+Expanded:300,400|Inconsolata|Quicksand:300');
 @font-face {
 font-family: 'American Typewriter Light';
 font-style: normal;
@@ -51,7 +51,7 @@ header {
 }
 
 nav {
-	margin-right: 150px;
+	margin-right: 50px;
 
 }
 
@@ -59,14 +59,16 @@ nav li {
 	display: inline-block;
 	margin-left: 31px;
 	margin-top: 20px;
+	list-style-type: none;
 
 }
 
 nav a {
 	color: grey;
 	text-decoration: none;
-	font-family: Arvo;
-
+	font-family: Inconsolata;
+	letter-spacing: 2px;
+	font-size: 17px;
 }
 
 nav a:hover {
@@ -98,16 +100,16 @@ nav a:hover {
 
 h3 {
 	color: grey;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .texto {
 	text-align: justify;
 	margin: auto;
-	font-size: 21px;
+	font-size: 22px;
 	width: 60%;
 	color: black;
-	font-family: American Typewriter Light;
+	font-family: Abel;
 /*	font-family: American Typewriter;*/
 }
 

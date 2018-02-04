@@ -17,7 +17,7 @@ body {
 	-moz-background-size: cover;
     -o-background-size: cover;
 	width: 100%;
-	transition: all 0.3s linear;
+	transition: all 0.4s linear;
 }
 
 body.class1 {
@@ -67,7 +67,7 @@ header {
 }
 
 nav {
-	margin-right: 150px;
+	margin-right: 50px;
 
 }
 
@@ -81,13 +81,16 @@ nav li {
 /*	display: inline-block;*/
 	margin-left: 35px;
 	margin-top: 20px;
+	list-style-type: none;
 
 }
 
 nav a {
 	color: grey;
 	text-decoration: none;
-	font-family: Arvo;
+	font-family: Inconsolata;
+	letter-spacing: 2px;
+	font-size: 17px;
 
 }
 
@@ -121,6 +124,7 @@ nav a:hover {
 	text-decoration: none;
 	font-size: 20px;
 	font-family: Open Sans Condensed;
+	letter-spacing: 2px
 
 }
 
