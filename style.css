@@ -16,8 +16,8 @@ body {
     -webkit-background-size: cover;
 	-moz-background-size: cover;
     -o-background-size: cover;
-/*	width: 100%;
-	transition: all 0.3s linear;*/
+	width: 100%;
+	transition: all 0.3s linear;
 }
 
 body.class1 {
@@ -153,7 +153,7 @@ footer li {
 	list-style: none;
 	text-align: left;
 	float: left;
-  	margin-right: 15px;
+  	margin-right: 20px;
   	margin-bottom: 10px;
 }
 
